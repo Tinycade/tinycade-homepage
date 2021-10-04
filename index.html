@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tinycade: A DIY Cardboard Arcade Platform</title>
+    
+    <!-- Fonts! -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Style ;) -->
+    <link rel="stylesheet" href="./Styles/main.css">
+    <link rel="stylesheet" href="./Styles/home.css">
+  </head>
+
+  <body>
+    <nav>
+      <a class="nav-logo-link" href="https://www.tinycade.io">
+        <span class="nav-logo"><img  src="./Assets/tinycade_logo.svg" alt="Tinycade Logo"></span>
+        <span class="nav-title">tinycade</span>
+      </a>
+
+      <div class="nav-menu">
+        <button id="nav-toggle">&lt; MENU</button>
+        <span class="nav-links">
+          <a class="selected" href="/">HOME</a>
+          //
+          <a href="">ASSEMBLY</a>
+          //
+          <a href="#what-to-play">GAME LIBRARY</a>
+          //
+          <a href="#footer">HELP</a>
+        </span>
+      </div>
+    </nav>
+
+    <section id="home-hero">
+      <div class="container">
+        <h1 class="hero-heading">Tiny arcade experiences on a tiny budget.</h1>
+
+        <img class="hero-model" src="./Assets/Home/tc_model_1.png" alt="Tinycade 3D Render">
+
+      </div>
+      <p id="hero-scroll-prompt">SCROLL DOWN TO LEARN MORE</p>
+    </section>
+
+    <section id="how-it-works" class="page-section is-dark">
+      <div class="container">
+        <h2>How does tinycade work?</h2>
+        <div class="section-items">
+          <ol>
+            <li>
+              When playing a game, your phone camera turns on.
+            </li>
+
+            <li>
+              The tinycade uses mirrors to reflect the image to the bottom of the controller.
+            </li>
+
+            <li>
+              When the controller is moved, it blocks and unblocks hero cards that your phone camera can read to determine how you moved.
+            </li>
+          </ol>
+          <img id="x-ray-img" src="./Assets/Home/tinycade_x_ray.png" alt="Tinycade x-ray view">
+          <span class="x-ray-label" id="x-ray-label-1">1 PHONE CAMERA</span>
+          <span class="x-ray-label" id="x-ray-label-2">2 MIRROR ONE</span>
+          <span class="x-ray-label" id="x-ray-label-3">3 CONTROLLER</span>
+          <span class="x-ray-label" id="x-ray-label-4">2 MIRROR TWO</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="how-to-build" class="page-section">
+      <div class="container">
+        <h2>How do I build a tinycade?</h2>
+        <div class="section-items">
+          <ol>
+            <li>
+              Buy the recommended <a href="#">supplies</a>.
+            </li>
+
+            <li>
+              Follow our detailed and easy to understand <a href="#">instructions</a>.
+            </li>
+
+            <li>
+              There is no third step, that is all.
+            </li>
+          </ol>
+
+          <img id="exploded-img" src="./Assets/Home/tinycade_exploded.png" alt="Tinycade exploded view">
+        </div>
+      </div>
+    </section>
+
+    <!-- <section id="what-to-play" class="page-section is-dark">
+      <div class="container">
+        <h2>What can I play on tinycade?</h2>
+      </div>
+    </section> -->
+
+    <section id="what-to-play" class="page-section is-dark placeholder">
+      <div class="container">
+        <h2 class="placeholder">Games and Instructions coming soon!</h2>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <div id="footer-content"class="container">
+        <div id="footer-menus">
+          <a class="footer-logo-link" href="https://www.tinycade.io">
+            <img class="footer-logo" src="./Assets/tinycade_logo_dark.svg" alt="Tinycade Logo">
+            <span class="footer-title">tinycade</span>
+          </a>
+
+          <a class="footer-menu-link" href="https://petroochio.github.io">Home //</a>
+          <a class="footer-menu-link" href="https://petroochio.github.io">Assembly //</a>
+          <a class="footer-menu-link" href="https://petroochio.github.io">Game Library //</a>
+          <a class="footer-menu-link" href="https://petroochio.github.io">Help //</a>
+        </div>
+        <div id="footer-contributors">
+          <h3>Contributors</h3>
+          <div class="footer-names-cols">
+            <a class="footer-link" href="https://petroochio.github.io">Peter Gyory</a>
+            <a class="footer-link" href="https://clementzheng.info/">Clement Zheng</a>
+            <a class="footer-link" href="#">Dylan Turner</a>
+            <a class="footer-link" href="#">Perry Owens</a>
+            <a class="footer-link" href="https://www.colorado.edu/atlas/ellen-yi-luen-do">Ellen Do</a>
+            <a class="footer-link" href="#">Allison Palmer</a>
+            <a class="footer-link" href="#">Rhys Ruefort</a>
+          </div>
+        </div>
+        <div id="footer-logos">
+          <h3><a class="underline" href="https://github.com/Tinycade/tinycade-homepage/blob/main/LICENSE">read license</a></h3>
+          <div class="logo-block">
+            <a href="https://www.colorado.edu/atlas/acme-lab"><img src="./Assets/acme_logo.svg" alt="ACME Lab Logo"></a>
+            <a href="https://www.colorado.edu/atlas/"><img class="atlas-brand" src="./Assets/atlas_logo.png" alt="ATLAS Institute Logo"></a>
+            <a class="cu-brand" href="https://www.colorado.edu"><img src="./Assets/cu_logo.png" alt="University of Colorado Boulder Logo"></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // this be navbar code
+      const navMenu = document.querySelector('.nav-menu');
+      const navButton = document.querySelector('#nav-toggle');
+      navButton.addEventListener('click', () => {
+        if (!navMenu.classList.contains('expanded')) {
+          setTimeout(() => navButton.innerHTML = ">", 480);
+          navMenu.classList.add('expanded');
+        } else {
+          setTimeout(() => navButton.innerHTML = "< MENU", 480);
+          navMenu.classList.remove('expanded');
+        }
+      });
+
+      const navBar = document.querySelector('nav');
+      document.addEventListener('scroll', e => {
+
+        if (window.scrollY > 32 + 56) {
+          if (!navBar.classList.contains('is-dark')) navBar.classList.add('is-dark');
+        } else {
+          if (navBar.classList.contains('is-dark')) navBar.classList.remove('is-dark');
+        }
+      });
+
+      // this be home page specific code
+      // might be good to use this for all section heads
+      const heroTitle = document.querySelector('.hero-heading');
+      document.addEventListener('scroll', e => {
+        if (window.scrollY > window.outerHeight * 1/4) {
+          if (!heroTitle.classList.contains('is-fade')) heroTitle.classList.add('is-fade');
+        } else {
+          if (heroTitle.classList.contains('is-fade')) heroTitle.classList.remove('is-fade');
+        }
+      });
+    </script>
+  </body>
+</html>
