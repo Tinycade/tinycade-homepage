@@ -159,6 +159,8 @@ nav {
   max-width: auto;
 }
 
+
+
 #nav-toggle {
   vertical-align: top;
   font-style: italic;
@@ -169,8 +171,13 @@ nav {
   padding: 7px 20px;
 }
 
+.nav-links > a {
+  color: #fff;
+}
+
 #nav-toggle:hover, .nav-links > a:hover {
   text-decoration: underline;
+  color:#fff;
 }
 
 /* nav dark mode */
