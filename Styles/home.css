@@ -45,10 +45,10 @@ main: #653EDD
 
 .hero-model {
   position: absolute;
-  right: -11vw;
-  top: 8vw;
+  top: 18vw;
   width: 70%;
   z-index: 10;
+  left: 12vw;
 }
 
 #hero-scroll-prompt {
@@ -96,4 +96,32 @@ main: #653EDD
 
 iframe {
   margin-top: 60px;
+}
+
+@media screen and (max-width: 500px) {
+  .hero-model {
+    position: absolute;
+    top: 8vw;
+    width: 70%;
+    z-index: 10;
+  }
+
+  .hero-heading {
+    left: 20px;
+    font-size: 60px;
+  }
+
+  .section-items ol {
+    z-index: 1;
+  }
+
+  .placeholder {
+    max-width: 420px;
+  }
+
+  .nav-links {
+    opacity: 0;
+    display: none;
+  }
+  
 }
