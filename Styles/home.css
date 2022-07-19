@@ -98,6 +98,15 @@ iframe {
   margin-top: 60px;
 }
 
+h2.placeholder {
+  line-height: 1.1em;
+}
+
+h2 a {
+  text-decoration: underline;
+  color: black;
+}
+
 @media screen and (max-width: 500px) {
   .hero-model {
     position: absolute;
