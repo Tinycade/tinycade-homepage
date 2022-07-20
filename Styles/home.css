@@ -107,7 +107,10 @@ h2 a {
   color: black;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
+  body {
+    overflow-x: hidden;
+  }
   .hero-model {
     position: absolute;
     top: 8vw;
@@ -124,13 +127,55 @@ h2 a {
     z-index: 1;
   }
 
-  .placeholder {
-    max-width: 420px;
-  }
-
   .nav-links {
     opacity: 0;
     display: none;
   }
+
+  #footer-content {
+    justify-content: unset;
+    flex-direction: column;
+  }
   
+  .page-section.placeholder {
+    max-width: 420px;
+    height: 290px;
+    padding: 34px 20px;
+  }
+
+  .page-section h2.placeholder {
+    width: 80vw;
+    font-size: 2rem;
+  }
+
+  #exploded-img {
+    left: 10vw;
+    bottom: -60vw;
+    width: 80vw;
+  }
+
+  iframe {
+    width: 80vw;
+  }
+
+  #footer-menus {
+    width: 80%;
+    margin-bottom: 50px;
+  }
+
+  #footer-contributors .footer-names-cols{
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+
+  #what-to-play {
+    height: 460px;
+  }
+
+  #x-ray-img {
+    position: absolute;
+    right: 10vw;
+    bottom: 0;
+    width: 100vw;
+  }
 }

@@ -11,6 +11,7 @@ main: #653EDD
   margin: 0;
   font-family: 'Space Mono', monospace;
   text-decoration: none;
+  /* overflow-x: ; */
 }
 
 a:hover {
